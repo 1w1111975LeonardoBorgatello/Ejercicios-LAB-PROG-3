@@ -1,0 +1,11 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(Ü¤¡š
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’‡òã
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(˜¥§©
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ùÍî™
+N	java:S106"9Replace this use of System.out or System.err by a logger.(›Â¥•
+S	java:S106."9Replace this use of System.out or System.err by a logger.(õÅ¿´ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ž¼âÏøÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(êŸôÿÿÿÿÿ8×ò¢ñˆ/
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ÐÙÒà
