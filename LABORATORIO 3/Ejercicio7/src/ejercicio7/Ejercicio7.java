@@ -1,6 +1,4 @@
-
 package ejercicio7;
-
 
 import java.util.Scanner;
 //7. Una empresa de alquiler de autos cobra $300 por día si no se superan 
@@ -11,9 +9,8 @@ import java.util.Scanner;
 
 public class Ejercicio7 {
 
-
     public static void main(String[] args) {
-        
+
         double cantKm;
         double importe;
         int dias;
@@ -25,25 +22,21 @@ public class Ejercicio7 {
         double precioXdia = 300;
         double precioXkm;
         importe = dias * precioXdia;
-        
-        if(cantKm <= 200){
-            
-            System.out.println("El importe es: "+importe);
+
+        if (cantKm <= 200) {
+
+            System.out.println("El importe es: " + importe);
+        } else if (cantKm <= 1000) {
+            cantKm = (cantKm - 200) * 5;
+            System.out.println("El importe es: " + (importe + cantKm));
+
+        } else {
+            double cantAnterior = 4000;
+            cantKm = ((cantKm - 1000) * 10) + cantAnterior;
+            System.out.println("El importe es: " + (importe + cantKm));
+
         }
-        else
-            if(cantKm <= 1000){                
-                cantKm = (cantKm - 200) * 5;
-                System.out.println("El importe es: "+(importe + cantKm));
-                               
-            }
-            else{
-                double cantAnterior = 4000;
-                cantKm = ((cantKm - 1000) * 10) + cantAnterior;
-                System.out.println("El importe es: "+(importe + cantKm));
-                
-            }
-        
 
     }
-    
+
 }
